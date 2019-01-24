@@ -1,4 +1,4 @@
-# Bitly url shorterer
+# Bitly url shortener
 
 Project can be used to shorten url and then check its clicks count
 
