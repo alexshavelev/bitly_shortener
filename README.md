@@ -5,8 +5,8 @@ Project can be used to shorten url and then check its clicks count
 ### How to install
 
 Register on http://bitly.com and click `GENERATE ACCES TOKEN`. 
-It looks like 'dcdf6d1bdsd770fb069703f5a5e1c51e37ef67a8'.
-Then create '.env' file and put token here in next format `'TOKEN=\'dcdf6d1bdsd770fb069703f5a5e1c51e37ef67a8\''`
+It looks like `'dcdf6d1bdsd770fb069703f5a5e1c51e37ef67a8'`.
+Then create '.env' file and put token here in next format `'TOKEN='<your token>''`
 
 
 Python3 should be already installed.
