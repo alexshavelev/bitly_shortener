@@ -32,11 +32,11 @@ def get_clicks_count(token, link):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='- shorten url\n-get clicks count')
-    parser.add_argument('url', nargs='*', help='URL')
+    parser.add_argument('url', help='URL')
     args = parser.parse_args()
     load_dotenv()
     token = os.getenv("TOKEN")
-    url = args.url[0]
+    url = args.url
     clicks_count = get_clicks_count(token, url)
     if isinstance(clicks_count, int):
         print(clicks_count)
