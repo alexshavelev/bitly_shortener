@@ -14,6 +14,8 @@ Then create '.env' file and put token here in next format `'TOKEN='<your token>'
 Python3 should be already installed.
 Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
 ```
+git clone ..
+cd /path/to/dir
 pip install -r requirements.txt
 ```
 ### How to use
