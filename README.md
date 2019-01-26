@@ -21,12 +21,12 @@ pip install -r requirements.txt
 ### How to use
 Create short link:
 ```
-python main.py -u https://test.com
+python main.py https://test.com
 http://bit.ly/2S6axwL
 ```
 See click count:
 ```
-python main.py -u bit.ly/2S6axwL
+python main.py bit.ly/2S6axwL
 0
 ```
 
